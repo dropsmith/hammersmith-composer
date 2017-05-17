@@ -1,0 +1,22 @@
+{
+    "name": "dropsmith/hammersmith-composer",
+    "type": "composer-plugin",
+    "description": "Composer plugin for Drupal Hammersmith projects.",
+    "license": "GPL-2.0+",
+    "require-dev": {
+        "composer/composer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dropsmith\\Hammersmith\\Composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Dropsmith\\Hammersmith\\Composer\\Plugin"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer-plugin-api": "^1.0"
+    }
+}
